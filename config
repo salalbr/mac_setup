@@ -1,0 +1,28 @@
+Host ubuntu
+HostName 10.0.0.142
+User ubuntu
+
+Host aws
+HostName ec2-54-212-10-239.us-west-2.compute.amazonaws.com
+IdentityFile ~/Downloads/startup_eng/homework/5_week/new-ssh-key.pem
+User ubuntu
+
+Host pupmaster
+HostName 10.0.0.146
+User root
+
+Host rhce
+HostName 10.0.0.149
+User root
+
+Host namenode
+HostName 10.0.0.50
+User hadoop
+
+Host datanode
+HostName 10.0.0.51
+User hadoop
+
+Host pupagent
+HostName 10.0.0.144
+User root
